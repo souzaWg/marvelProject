@@ -94,7 +94,6 @@ li{
 li > a{
 	text-decoration: none;
 	padding: 10px 10px;
-	margin: 10px 50px;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 18px;
@@ -111,11 +110,12 @@ li > a:hover{
 .side-bar{
 	position: absolute;
 	width: 100px;
-	height: 84.9%;
+	height: 80%;
 	padding: 0 2px;
 	background: rgba(255, 255, 255, 0.35);
 	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 	backdrop-filter: blur(5.5px);
+	border-bottom-right-radius: 10px;
 }
 .side-bar button{
 	background: transparent;
