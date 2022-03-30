@@ -1,0 +1,176 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+.mega{
+	background-image: url(image/spider.webp);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	padding: 5px 0;
+	position: relative;
+}
+.iron{
+	background-image: url(image/ironMan.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	padding: 5px 0;
+	position: relative;
+}
+.capitan{
+	background-image: url(image/capAmerica.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	padding: 5px 0;
+	position: relative;
+}
+.avengers{
+	background-image: url(image/avengersInfinity.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	padding: 5px 0;
+	position: relative;	
+}
+header{
+	padding: 10px 2% 3px 2%;
+	z-index: 0;
+	background: rgba(255, 255, 255, 0.35);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(3.5px);
+	border-bottom: 1px solid whitesmoke;
+}
+
+.box{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 1;
+}
+.box h1{
+	color: whitesmoke;
+}
+input[type=text]{
+	width: 400px;
+	height: 30px;
+	border-radius: 15px;
+	border: 3.5px solid whitesmoke;
+	background: transparent;
+	padding: 0 2%;
+	text-transform: uppercase;
+}
+input[type=button]{
+	text-transform: uppercase;
+	font-weight: bold;
+	background: darkred;
+	position: relative;
+	width: 90px;
+	height: 30px;
+	border-radius: 15px;
+	left: -150px;
+}
+ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+li{
+	padding: 10px 10px;
+	margin: 10px 50px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+	color: whitesmoke;
+	cursor: pointer;
+
+}
+li > a{
+	text-decoration: none;
+	padding: 10px 10px;
+	margin: 10px 50px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+	color: whitesmoke;
+	cursor: pointer;
+}
+li > a:hover{
+	background: linear-gradient(darkred, red);
+	width: fit-content;
+	height: fit-content;
+	border-radius: 10px;
+
+}
+.side-bar{
+	position: absolute;
+	width: 100px;
+	height: 84.9%;
+	padding: 0 2px;
+	background: rgba(255, 255, 255, 0.35);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(5.5px);
+}
+.side-bar button{
+	background: transparent;
+	border-radius: 5px;
+	border-right: 1px solid whitesmoke;
+	border-bottom: 1px solid whitesmoke;
+
+}
+.side-bar button:hover{
+	border-left: 1px solid whitesmoke;
+	border-top: 1px solid whitesmoke;
+	border-right: 0;
+	border-bottom: 0;
+}
+.side-bar img{
+	width: 90px;
+	height: 100px;
+}
+.conteudo{
+	width: 650px;
+	height: 500px;
+	background: transparent;
+	position: relative;
+	left: 10%;
+	padding: 20px 10px;
+}
+.conteudo > .image{
+	width: 100%;
+	height: 250px;
+	background-image: url(image/spiderName.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.conteudo p{
+	font-size: 26px;
+	font-style:oblique ;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+.avConteudo{
+	width: 650px;
+	height: 500px;
+	background: transparent;
+	position: relative;
+	left: 10%;
+	padding: 20px 10px;
+}
+.avConteudo > .image{
+	width: 100%;
+	height: 250px;
+	background-image: url(image/avName.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.avConteudo p{
+	font-size: 26px;
+	font-style:oblique ;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
